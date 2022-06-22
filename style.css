@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+.container{
+    width: 935px;
+    display: grid;
+    grid-template-columns: ifr 350px;
+    column-gap: 1.25rem;
+
+}
+.cell{
+    flex-direction: row;
+    display: flex;
+}
+.img-capa{
+    border: 6px solid black;
+    border-radius: 1cm;
+    height: 510px;
+    width: 235px;
+    left: 200px;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.img-capa2{
+    border: 6px solid black;
+    border-radius: 1cm;
+    height: 480px;
+    width: 225px;
+    position: relative;
+    right: 40px;
+    left: 10px;
+    margin-top: 50px;
+    
+}
+.form {
+    border: 1px solid black;
+    flex-direction: column;
+    margin-left: 600px;
+    margin-bottom: 600px;
+    height: 510px;
+    flex: content;
+
+}
