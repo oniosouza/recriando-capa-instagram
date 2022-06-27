@@ -80,15 +80,16 @@ a {
         }
 
         button {
+            
             width: 100%;
             font-weight: bold;
-            color: #fff;
+            color: white;
             appearance: none;
             height: 30px;
             margin-top: 12px;
             border-radius: 4px;
             border: 0;
-            background: rgb(94, 140, 209);
+            background: rgb(114, 146, 196);
 
             &:disabled {
                 background-color: rgb(126, 164, 214);
